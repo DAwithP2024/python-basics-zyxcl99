@@ -67,7 +67,7 @@ def validate_name(name):
     return name.replace(" ", "").replace("-", "").isalpha() and " " in name
 
 def validate_email(email):
-    return "@" in email and "." in email
+    return "@" in email
 
 def main():
     name = input("Please enter your name: ")
